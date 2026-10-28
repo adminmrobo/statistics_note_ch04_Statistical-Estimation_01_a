@@ -1,0 +1,497 @@
+{
+  "registry": "KG_00_registry.json",
+  "version": "0.1",
+  "updated": "2026-10-28",
+  "note": "이 시리즈(통계적 추정 장)에서 처음 만든 등록부. 2.1.a에서 생긴 ID 전부를 담는다.",
+  "concepts": [
+    {
+      "id": "lab:area/statistical-inference",
+      "type": "Concept",
+      "ko": "통계적 추론",
+      "en": "statistical inference",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:concept/estimation",
+      "type": "Concept",
+      "ko": "추정",
+      "en": "estimation",
+      "broader": "lab:area/statistical-inference",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:concept/population",
+      "type": "Concept",
+      "ko": "모집단",
+      "en": "population",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:concept/parameter",
+      "type": "Concept",
+      "ko": "모수",
+      "en": "parameter",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:concept/sample",
+      "type": "Concept",
+      "ko": "표본",
+      "en": "sample",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:concept/statistic",
+      "type": "Concept",
+      "ko": "표본과 통계량",
+      "en": "statistic",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:concept/random-sampling",
+      "type": "Concept",
+      "ko": "무작위 추출",
+      "en": "random sampling",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:method/point-estimation",
+      "type": "Method",
+      "ko": "점추정",
+      "en": "point estimation",
+      "broader": "lab:concept/estimation",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:method/interval-estimation",
+      "type": "Method",
+      "ko": "구간추정",
+      "en": "interval estimation",
+      "broader": "lab:concept/estimation",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:concept/sample-mean",
+      "type": "Concept",
+      "ko": "표본평균",
+      "en": "sample mean",
+      "broader": "lab:concept/statistic",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:concept/sample-variance",
+      "type": "Concept",
+      "ko": "표본분산",
+      "en": "sample variance",
+      "broader": "lab:concept/statistic",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:concept/unbiasedness",
+      "type": "Concept",
+      "ko": "치우침 없음 (불편성)",
+      "en": "unbiasedness",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:concept/random-variable",
+      "type": "Concept",
+      "ko": "확률변수",
+      "en": "random variable",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:concept/sampling-distribution",
+      "type": "Concept",
+      "ko": "표본평균의 분포",
+      "en": "sampling distribution of the mean",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:concept/standard-error",
+      "type": "Concept",
+      "ko": "표준오차",
+      "en": "standard error",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:method/confidence-interval",
+      "type": "Method",
+      "ko": "신뢰구간",
+      "en": "confidence interval",
+      "broader": "lab:method/interval-estimation",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:concept/confidence-level",
+      "type": "Concept",
+      "ko": "신뢰수준",
+      "en": "confidence level",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:concept/normal-distribution",
+      "type": "Concept",
+      "ko": "정규분포",
+      "en": "normal distribution",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:concept/t-distribution",
+      "type": "Concept",
+      "ko": "t-분포",
+      "en": "t-distribution",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:concept/sample-size",
+      "type": "Concept",
+      "ko": "표본 크기",
+      "en": "sample size",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:term/mu",
+      "type": "Term",
+      "ko": "μ",
+      "en": "mu",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:term/sigma",
+      "type": "Term",
+      "ko": "σ",
+      "en": "sigma",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:term/x-bar",
+      "type": "Term",
+      "ko": "x̄",
+      "en": "x-bar",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:term/z-value",
+      "type": "Term",
+      "ko": "z값",
+      "en": "z-value",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:limitation/sample-varies",
+      "type": "Limitation",
+      "ko": "표본마다 값이 달라진다",
+      "en": "statistic varies by sample",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:limitation/no-uncertainty",
+      "type": "Limitation",
+      "ko": "숫자 하나는 오차를 말하지 않는다",
+      "en": "point estimate hides uncertainty",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:limitation/one-sample-only",
+      "type": "Limitation",
+      "ko": "실제로는 표본을 한 번만 뽑는다",
+      "en": "only one sample in practice",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:limitation/sigma-known",
+      "type": "Limitation",
+      "ko": "σ를 안다고 가정했다",
+      "en": "assumes known sigma",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:question/how-far-from-100",
+      "type": "Question",
+      "ko": "과자 100개로 1만 개의 평균을 어디까지 말할 수 있을까?",
+      "en": "core question",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:question/duel-confidence-level",
+      "type": "Question",
+      "ko": "신뢰수준은 높을수록 좋을까?",
+      "en": "duel question",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:question/sigma-unknown",
+      "type": "Question",
+      "ko": "σ를 모르고 n이 작으면 구간을 어떻게 만들까?",
+      "en": "open question",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:metric/coverage-rate",
+      "type": "Metric",
+      "ko": "포함률",
+      "en": "coverage rate",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:metric/interval-width",
+      "type": "Metric",
+      "ko": "구간 폭",
+      "en": "interval width",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:metric/useful-interval-rate",
+      "type": "Metric",
+      "ko": "쓸모 있는 구간 비율",
+      "en": "useful interval rate",
+      "broader": "lab:metric/coverage-rate",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:dataset/toy-cookie-population",
+      "type": "Dataset",
+      "ko": "과자 1만 개 (설명용 모형)",
+      "en": "toy cookie population",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:method/ci-95",
+      "type": "Method",
+      "ko": "95% 신뢰구간",
+      "en": "95% confidence interval",
+      "broader": "lab:method/confidence-interval",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:method/ci-99",
+      "type": "Method",
+      "ko": "99% 신뢰구간",
+      "en": "99% confidence interval",
+      "broader": "lab:method/confidence-interval",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:claim/estimation-definition",
+      "type": "Claim",
+      "ko": "추정은 표본 결과를 모집단의 결과로 쓰는 것",
+      "en": "estimation-definition",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:claim/two-kinds",
+      "type": "Claim",
+      "ko": "추정에는 점추정과 구간추정이 있다",
+      "en": "two-kinds",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:claim/point-estimators",
+      "type": "Claim",
+      "ko": "모수의 점추정량은 표본평균과 표본분산",
+      "en": "point-estimators",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:claim/statistic-varies",
+      "type": "Claim",
+      "ko": "통계량은 표본을 뽑을 때마다 달라진다",
+      "en": "statistic-varies",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:claim/hundred-samples-mean-15",
+      "type": "Claim",
+      "ko": "표본 100번의 표본평균들의 평균 15 (자료 예시)",
+      "en": "hundred-samples-mean-15",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:claim/standard-error-formula",
+      "type": "Claim",
+      "ko": "표본평균의 표준오차는 σ/√n",
+      "en": "standard-error-formula",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:claim/higher-level-wider",
+      "type": "Claim",
+      "ko": "신뢰수준이 높을수록 구간이 넓다",
+      "en": "higher-level-wider",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:claim/ci-repeated-sampling",
+      "type": "Claim",
+      "ko": "신뢰수준은 반복 추출에서 구간이 모수를 포함하는 비율",
+      "en": "ci-repeated-sampling",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:claim/bell-shaped-examples",
+      "type": "Claim",
+      "ko": "여러 자연·사회 현상이 종 모양 분포를 보인다 (자료 예시)",
+      "en": "bell-shaped-examples",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:claim/cookie-factory-example",
+      "type": "Claim",
+      "ko": "과자 1만 개 중 100개 표본의 평균 254g (자료 예시)",
+      "en": "cookie-factory-example",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:work/lecture21a-estimation",
+      "type": "Work",
+      "ko": "강의 노트 「2.1.a 통계적 추정 : 점추정과 신뢰구간」",
+      "en": "Lecture note 2.1.a",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:work/neyman1937outline",
+      "type": "Work",
+      "ko": "Neyman (1937)",
+      "en": "Neyman 1937",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:work/mykepzzang-point-estimation",
+      "type": "Work",
+      "ko": "점 추정(적률방법) 블로그 글",
+      "en": "Point estimation (moment method), blog",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:analogy/sample-crate",
+      "type": "Analogy",
+      "ko": "시료 상자 ↔ 모집단",
+      "en": "sample crate as population",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:analogy/scale-needle",
+      "type": "Analogy",
+      "ko": "저울 바늘 한 번 읽기 ↔ 점추정",
+      "en": "single reading as point estimate",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:analogy/repeat-notebook",
+      "type": "Analogy",
+      "ko": "반복 실험 노트 ↔ 표본평균의 분포",
+      "en": "repeated notebook as sampling distribution",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:analogy/error-bar",
+      "type": "Analogy",
+      "ko": "오차 막대 ↔ 신뢰구간",
+      "en": "error bar as confidence interval",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:analogy/ring-toss",
+      "type": "Analogy",
+      "ko": "고리 던지기 ↔ 신뢰구간의 해석",
+      "en": "ring toss",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:analogy/llm-benchmark",
+      "type": "Analogy",
+      "ko": "LLM 벤치마크 점수 ↔ 점추정",
+      "en": "benchmark score as point estimate",
+      "broader": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "lab:analogy/packing-line",
+      "type": "Analogy",
+      "ko": "포장 라인 중량 검사 ↔ 신뢰구간과 표본 크기",
+      "en": "packing line weight check",
+      "broader": "",
+      "firstPage": "2.1.a"
+    }
+  ],
+  "works": [
+    {
+      "id": "lecture21a_estimation",
+      "work": "lab:work/lecture21a-estimation",
+      "title": "2.1.a 통계적 추정 : 점추정과 신뢰구간",
+      "year": "",
+      "doi": "",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "neyman1937outline",
+      "work": "lab:work/neyman1937outline",
+      "title": "Outline of a Theory of Statistical Estimation Based on the Classical Theory of Probability",
+      "year": 1937,
+      "doi": "10.1098/rsta.1937.0005",
+      "firstPage": "2.1.a"
+    },
+    {
+      "id": "mykepzzang_point_estimation",
+      "work": "lab:work/mykepzzang-point-estimation",
+      "title": "[확률과 통계] 52. 통계적 추정(1) - 점 추정(적률방법), Point Estimation(Moment Method)",
+      "year": "",
+      "doi": "",
+      "firstPage": "2.1.a"
+    }
+  ],
+  "pages": [
+    {
+      "number": "2.1.a",
+      "file": "2-1a_point_interval_estimation.html",
+      "kgVersion": "1.0"
+    }
+  ]
+}
