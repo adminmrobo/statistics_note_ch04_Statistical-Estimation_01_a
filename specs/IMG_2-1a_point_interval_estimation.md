@@ -5,7 +5,7 @@
 | 페이지 | 2-1a_point_interval_estimation.html |
 | 모드 / 주 앵커 | 교과서 / B 연구실: 밤의 연구실 계량 실험대 (보조 D 현장: 과자 공장 시료) |
 | 시즌 | 기본 |
-| 대결 | 같은 n = 100에서 신뢰수준 95%(초파리) vs 99%(Money-Robo), 판정 기준 "쓸모 있는 구간 비율"(모평균 포함 + 폭 5g 이하) → 결과 **F**, 0.925 vs 0.420, 차이 0.505 |
+| 대결 | 같은 n = 100에서 신뢰수준 95%(초파리) vs 99%(주판봇), 판정 기준 "쓸모 있는 구간 비율"(모평균 포함 + 폭 5g 이하) → 결과 **F**, 0.925 vs 0.420, 차이 0.505 |
 | 새로 그릴 그림 | P1 2장 · P2 3장 · P3 1장 |
 | 제작 경로 | 직접 3장 (페이지에 넣음: 히어로·아웃트로 합성본, 행동 캔버스) · 외부 의뢰 3장 (받을 것) |
 | 의뢰 도구 | Genspark (기본) |
@@ -85,17 +85,17 @@ detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering sha
 | 판 · 크기 | E · 1200×800 |
 | 제작 경로 | 직접 합성본 페이지에 있음 → 외부: Genspark (P1) |
 | 배경 | 그림 전체 |
-| 구도 | 가운데 실험대 위 저울과 과자 상자. 왼쪽 초파리(오른쪽을 봄, 저울 위 과자 하나를 의심스럽게 가리킴), 가운데 뒤 박사(턱에 손, 생각), 오른쪽 옆 하루(과자 상자에서 과자를 집어 쟁반에 담음), 오른쪽 Money-Robo(왼쪽을 봄, 금화 하나를 반짝이며 자신만만). 중요한 것은 위쪽 62% 안 |
+| 구도 | 가운데 실험대 위 저울과 과자 상자. 왼쪽 초파리(오른쪽을 봄, 저울 위 과자 하나를 의심스럽게 가리킴), 가운데 뒤 박사(턱에 손, 생각), 오른쪽 옆 하루(과자 상자에서 과자를 집어 쟁반에 담음), 오른쪽 주판봇(왼쪽을 봄, 나무 주판의 주판알 하나를 반짝 튕기며 자신만만). 중요한 것은 위쪽 62% 안 |
 | 표정·몸짓 | 박사 `doc_think`, 하루 `asst_smile`, 초파리 `fly_point`, 로봇 `robo_coin` |
-| 소품 | 저울(빈 표시창), 과자 상자, 쟁반, 금화 하나 (글자 없음) |
+| 소품 | 저울(빈 표시창), 과자 상자, 쟁반, 나무 주판 하나 (글자 없음) |
 | 빛·분위기 | 저울에 빛이 모임, 중간 밝기 |
-| 피할 것 | 승패 암시(결과 전 장면), 저울·노트 위 숫자, 금화의 "B" 표시 |
+| 피할 것 | 승패 암시(결과 전 장면), 저울·노트 위 숫자, 주판알에 글자·기호 표시 |
 | 대체 글 (alt) | 밤의 연구실 실험대 위 저울과 과자 상자 앞에 네 캐릭터가 선 장면 |
 | 대신 쓰는 그림 | 픽셀 연구실 캔버스 + 팩 캐릭터 4명 합성 (`#heroArt`) |
 
 **프롬프트 (복사해서 사용)**
 ```
-detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, consistent with the reference images, cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, 3:2 landscape scene, medium brightness, a night laboratory workbench with a digital weighing scale with a blank glowing display and a wooden crate of identical round cookies, the light gathering on the scale; the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, standing at the back center with a hand on his chin, thinking; the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, on the left facing right, pointing doubtfully at a cookie on the scale; Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, at the right side calmly picking cookies from the crate onto a small tray; MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, on the right facing left with half-closed confident eyes beside one shiny plain gold coin, no text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands
+detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, consistent with the reference images, cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, 3:2 landscape scene, medium brightness, a night laboratory workbench with a digital weighing scale with a blank glowing display and a wooden crate of identical round cookies, the light gathering on the scale; the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, standing at the back center with a hand on his chin, thinking; the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, on the left facing right, pointing doubtfully at a cookie on the scale; Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, at the right side calmly picking cookies from the crate onto a small tray; JUPANBOT (AbaBot), a cute retro computer robot mascot with a boxy beige CRT-monitor body with rounded corners and thick dark brown outlines, a large dark green screen on the front where the face is drawn only with simple mint-green pixel blocks, a short thin antenna on a small square base topped with one tiny red-brown abacus bead, gray segmented arms with rounded gray mitten hands, two small dark gray tank treads instead of legs, holding a small traditional wooden abacus with red-brown beads, on the right facing left with half-closed confident eyes beside a wooden abacus with one shiny bead, no text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands, no white round robot head, no yellow or golden eyes, no floating robot, no gold coins
 ```
 
 ### 3-3. `sc_21a_outro` — 실험이 끝난 밤 (아웃트로)
@@ -104,17 +104,17 @@ detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering sha
 | 판 · 크기 | E · 1200×800 |
 | 제작 경로 | 직접 합성본 페이지에 있음 → 외부 선택 (P2) |
 | 배경 | 그림 전체 |
-| 구도 | 승자 초파리가 앞·크게 팔짱(뿌듯), 옆에 넓은 고리와 좁은 고리가 말뚝에 걸린 작은 장난감 고리 던지기 세트. 박사는 가운데 뒤에서 손바닥 위 보라 불꽃, Money-Robo는 머쓱하게 볼에 분홍 빗금(조롱 아님, 인정하는 몸짓), 하루는 한쪽에서 주먹 쥐고 응원. 창밖에 달 |
+| 구도 | 승자 초파리가 앞·크게 팔짱(뿌듯), 옆에 넓은 고리와 좁은 고리가 말뚝에 걸린 작은 장난감 고리 던지기 세트. 박사는 가운데 뒤에서 손바닥 위 보라 불꽃, 주판봇은 머쓱하게 볼에 분홍 빗금(조롱 아님, 인정하는 몸짓), 하루는 한쪽에서 주먹 쥐고 응원. 창밖에 달 |
 | 표정·몸짓 | `fly_arms`, `doc_magic`, `robo_blush`, `asst_firm` |
 | 소품 | 고리 던지기 말뚝과 고리 2개(넓은 것·좁은 것), 저울, 과자 쟁반 (글자 없음) |
 | 빛·분위기 | 늦은 밤, 보라 조명, 달빛 |
-| 피할 것 | 패자 조롱, 숫자·글자, 금화 "B" 표시 |
-| 대체 글 (alt) | 실험이 끝난 밤의 연구실에서 초파리 연구원이 앞에 서고 Money-Robo가 머쓱해하는 장면 |
+| 피할 것 | 패자 조롱, 숫자·글자, 주판알에 글자·기호 표시 |
+| 대체 글 (alt) | 실험이 끝난 밤의 연구실에서 초파리 연구원이 앞에 서고 주판봇이 머쓱해하는 장면 |
 | 대신 쓰는 그림 | 픽셀 연구실(밤·달) + 팩 캐릭터 합성 (`#outroArt`) |
 
 **프롬프트 (복사해서 사용)**
 ```
-detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, consistent with the reference images, cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, 3:2 landscape scene, medium brightness, late night in the laboratory with a moon in the window, a workbench with a weighing scale and a small tray of cookies, a toy ring toss peg on the bench with one wide ring and one narrow ring around it; the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, in the front and larger, arms crossed with a proud sparkle; the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, at the back center laughing with small purple flames above both palms; MONEY-ROBO, a cute small floating chibi robot with a large glossy rounded-square white head and a small rounded white body with thick black outlines, a black pill-shaped screen face showing golden-yellow pixel eyes and mouth, a small round knob antenna on a short stem, stubby rounded fingerless arms, no legs, a black oval chest panel with a bright cyan pill-shaped core light, hovering above a small dark oval shadow, on the right with drooping eyes and pink blush lines, sheepish but accepting; Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, at the side with a determined cheering fist, no text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands
+detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering shading, thick dark outlines, cheerful comedy mood, consistent with the reference images, cozy night laboratory mood, purple light, soft magenta and green fluorescent accents, 3:2 landscape scene, medium brightness, late night in the laboratory with a moon in the window, a workbench with a weighing scale and a small tray of cookies, a toy ring toss peg on the bench with one wide ring and one narrow ring around it; the Fruit Fly, a tiny expressive cartoon fruit fly researcher with a dark charcoal-black segmented insect body, large glossy red compound eyes, a retro dark blue helmet with a yellow-white center stripe and small round side bolts, colorful dangling cables in magenta, purple and blue curving from the back of the helmet, a tiny white lab coat over a black vest, translucent veined wings, six thin black legs with the front pair used like hands, in the front and larger, arms crossed with a proud sparkle; the Professor, a chibi male scientist with a big head, dark charcoal spiky hair with a white streak at the front, a small low ponytail at the back, very thick bold black eyebrows, teal-framed rectangular glasses, light peach skin, white lab coat over a black vest, black tie and black slacks, at the back center laughing with small purple flames above both palms; JUPANBOT (AbaBot), a cute retro computer robot mascot with a boxy beige CRT-monitor body with rounded corners and thick dark brown outlines, a large dark green screen on the front where the face is drawn only with simple mint-green pixel blocks, a short thin antenna on a small square base topped with one tiny red-brown abacus bead, gray segmented arms with rounded gray mitten hands, two small dark gray tank treads instead of legs, holding a small traditional wooden abacus with red-brown beads, on the right with drooping eyes and pink blush lines, sheepish but accepting; Haru, a cute anime girl lab assistant, long straight pink hair with navy blue streaks including a thick navy streak down the center of the bangs, two round messy hair buns on top of the head, a small ahoge, big bright blue eyes, light peach skin, wearing a lavender hoodie with white drawstrings over a white t-shirt, under an open white knee-length lab coat, at the side with a determined cheering fist, no text, no letters, no numbers, no logos, no weapons, no cigarettes, no alcohol, no blood, no real brands, no white round robot head, no yellow or golden eyes, no floating robot, no gold coins
 ```
 
 ### 3-4. `cut_21a_ringtoss` — 말뚝은 그대로, 고리가 날아간다 (④칸 컷, 선택)
@@ -151,7 +151,7 @@ detailed 16-bit SNES-era pixel art, limited palette, crisp pixels, dithering sha
 | 대체 글 (alt) | 2.1.a 점추정과 신뢰구간 페이지 미리보기 |
 
 ## 4. 일관성 지침
-- 참고 이미지: 공식 저장소 `refs/original/keyart_rivals.png`(넷이 함께) + 장면에 나오는 캐릭터의 팩 표정 원본 PNG (`images/doctor/E09_thinking.png`, `images/haru/E13_neutral.png`, `images/fruitfly/E08_guiding.png`, `images/money_robo/E16_proud.png`, 아웃트로는 `images/fruitfly/E16_proud.png`, `images/money_robo/E14_*.png`, `images/doctor/E16_proud.png`, `images/haru/E12_*.png`)
+- 참고 이미지: 공식 저장소 `refs/original/keyart_rivals.png`(넷이 함께) + 장면에 나오는 캐릭터의 팩 표정 원본 PNG (`images/doctor/E09_thinking.png`, `images/haru/E13_neutral.png`, `images/fruitfly/E08_guiding.png`, `images/jupanbot/E16_proud.png`, 아웃트로는 `images/fruitfly/E16_proud.png`, `images/jupanbot/E14_*.png`, `images/doctor/E16_proud.png`, `images/haru/E12_*.png`)
 - 같은 캐릭터는 같은 세션에서, 시드 고정 가능하면 고정: 박사 2101, 조수 2102, 초파리 2103, 로봇 2104
 - 표정만 바꿀 때 추가 문장: *same character, same size and position, only change the facial expression and pose to ...*
 - 투명 배경이 안 되면: *solid flat #00ff00 background*
@@ -187,21 +187,21 @@ python3 build_character_pack.py --ingest 받은폴더/ --plates bg_21a=F,sc_21a_
 - **확인할 것:** 저울 표시창에 숫자가 나오면 다시. 과자 상자에 상표가 그려지면 다시.
 
 ### 의뢰 2/3 · `sc_21a_hero`
-- **올릴 참고 이미지:** `refs/original/keyart_rivals.png`, `images/fruitfly/E08_guiding.png`, `images/money_robo/E16_proud.png`, `images/doctor/E09_thinking.png`
+- **올릴 참고 이미지:** `refs/original/keyart_rivals.png`, `images/fruitfly/E08_guiding.png`, `images/jupanbot/E16_proud.png`, `images/doctor/E09_thinking.png`
 - **크기·비율:** 1200×800 (3:2) 이상
 - **배경:** 그림 전체
 - **받을 파일 이름:** `sc_21a_hero.png`
 - **프롬프트:** 3-2의 프롬프트 그대로
 - **네거티브:** 위와 같음
-- **확인할 것:** 박사 안경이 둥글게 나오면 다시(청록 사각 테). 초파리와 로봇이 서로 마주 보는지. 금화에 "B"가 있으면 다시.
+- **확인할 것:** 박사 안경이 둥글게 나오면 다시(청록 사각 테). 초파리와 로봇이 서로 마주 보는지. 주판알에 글자·기호가 있거나 흰 둥근 로봇·금화가 나오면 다시.
 
 ### 의뢰 3/3 · `sc_21a_outro` (선택) · `cut_21a_ringtoss` (선택)
-- **올릴 참고 이미지:** `refs/original/keyart_rivals.png`, `images/fruitfly/E16_proud.png`, `images/money_robo/E14_*.png` / 컷은 `images/haru/E13_neutral.png`, `images/fruitfly/E10_*.png`
+- **올릴 참고 이미지:** `refs/original/keyart_rivals.png`, `images/fruitfly/E16_proud.png`, `images/jupanbot/E14_*.png` / 컷은 `images/haru/E13_neutral.png`, `images/fruitfly/E10_*.png`
 - **크기·비율:** 1200×800 (3:2) / 960×540 (16:9) 이상
 - **배경:** 그림 전체
 - **받을 파일 이름:** `sc_21a_outro.png`, `cut_21a_ringtoss.png`
 - **프롬프트:** 3-3, 3-4의 프롬프트 그대로
-- **확인할 것:** 아웃트로에서 Money-Robo가 우스꽝스럽게 망가지거나 조롱당하지 않는지. 컷에서 말뚝이 움직이는 것처럼 보이지 않는지.
+- **확인할 것:** 아웃트로에서 주판봇이 우스꽝스럽게 망가지거나 조롱당하지 않는지. 컷에서 말뚝이 움직이는 것처럼 보이지 않는지.
 
 ## 7. 매니페스트
 ```json
@@ -213,7 +213,7 @@ python3 build_character_pack.py --ingest 받은폴더/ --plates bg_21a=F,sc_21a_
   "images": [
     {"key":"bg_21a","plate":"F","size":[1920,720],"maker":"external","tool":"genspark","status":"requested","priority":"P1","slot":"hero-bg","fallback":"css","alt":"저울과 과자 상자가 놓인 밤의 연구실 실험대"},
     {"key":"sc_21a_hero","plate":"E","size":[1200,800],"maker":"external","tool":"genspark","status":"requested","priority":"P1","slot":"hero-stage","fallback":"composite","alt":"밤의 연구실 실험대 위 저울과 과자 상자 앞에 네 캐릭터가 선 장면"},
-    {"key":"sc_21a_outro","plate":"E","size":[1200,800],"maker":"claude","status":"placed","priority":"P2","slot":"outro-stage","fallback":"composite","alt":"실험이 끝난 밤의 연구실에서 초파리 연구원이 앞에 서고 Money-Robo가 머쓱해하는 장면","external_optional":true},
+    {"key":"sc_21a_outro","plate":"E","size":[1200,800],"maker":"claude","status":"placed","priority":"P2","slot":"outro-stage","fallback":"composite","alt":"실험이 끝난 밤의 연구실에서 초파리 연구원이 앞에 서고 주판봇이 머쓱해하는 장면","external_optional":true},
     {"key":"cut_21a_ringtoss","plate":"G","size":[960,540],"maker":"external","tool":"genspark","status":"requested","priority":"P2","slot":"lv4-cut","fallback":"none","alt":"고정된 말뚝에 고리를 던져 대부분 걸리고 일부가 빗나가는 장면","optional":true},
     {"key":"thumb_21a","plate":"I","size":[600,400],"maker":"claude","status":"planned","priority":"P2","slot":"index-card","alt":"저울과 과자 상자가 있는 연구실 — 2.1.a 점추정과 신뢰구간"},
     {"key":"og_21a","plate":"K","size":[1200,630],"maker":"claude","status":"planned","priority":"P3","slot":"og","alt":"2.1.a 점추정과 신뢰구간 페이지 미리보기"},
