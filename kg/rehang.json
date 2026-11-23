@@ -1,0 +1,203 @@
+{
+ "version": "1.0",
+ "made": "2026-11-24",
+ "via": "rehang-2026-11-24",
+ "domains": [
+  "stats"
+ ],
+ "note": "분야 뼈대 주제에 다시 걸기(ai-lab-retrofit 15장). links는 자동 후보이며 틀린 줄은 지우면 된다. 빌드 스크립트가 있는 저장소는 빌드 끝에 rehang.apply_overlay()가 이 파일을 적용한다.",
+ "topics": {
+  "lab:topic/ci-interpretation": {
+   "ko": "신뢰구간 해석",
+   "en": "Interpreting confidence intervals",
+   "domain": [
+    "stats"
+   ],
+   "level": 2
+  },
+  "lab:topic/confidence-interval": {
+   "ko": "신뢰구간",
+   "en": "Confidence interval",
+   "domain": [
+    "stats"
+   ],
+   "level": 2
+  },
+  "lab:topic/continuous-distributions": {
+   "ko": "연속분포",
+   "en": "Continuous distributions",
+   "domain": [
+    "stats"
+   ],
+   "level": 1
+  },
+  "lab:topic/sample-size": {
+   "ko": "표본 크기 정하기",
+   "en": "Sample size determination",
+   "domain": [
+    "stats"
+   ],
+   "level": 2
+  },
+  "lab:topic/sampling-design": {
+   "ko": "표본 설계",
+   "en": "Sampling design",
+   "domain": [
+    "stats"
+   ],
+   "level": 3
+  },
+  "lab:topic/sampling-distribution-mean": {
+   "ko": "표본평균의 분포",
+   "en": "Sampling distribution of the mean",
+   "domain": [
+    "stats"
+   ],
+   "level": 2
+  },
+  "lab:topic/t-chi2-f": {
+   "ko": "t·카이제곱·F 분포",
+   "en": "t, chi-square and F distributions",
+   "domain": [
+    "stats"
+   ],
+   "level": 2
+  },
+  "lab:topic/unbiasedness": {
+   "ko": "불편성",
+   "en": "Unbiasedness",
+   "domain": [
+    "stats"
+   ],
+   "level": 2
+  }
+ },
+ "links": {
+  "lab:area/statistical-inference": {
+   "topic": "lab:topic/confidence-interval",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "통계적 추론"
+  },
+  "lab:concept/confidence-level": {
+   "topic": "lab:topic/ci-interpretation",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "신뢰수준"
+  },
+  "lab:concept/estimation": {
+   "topic": "lab:topic/unbiasedness",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "추정"
+  },
+  "lab:concept/normal-distribution": {
+   "topic": "lab:topic/continuous-distributions",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "정규분포"
+  },
+  "lab:concept/parameter": {
+   "topic": "lab:topic/unbiasedness",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "모수"
+  },
+  "lab:concept/population": {
+   "topic": "lab:topic/sampling-design",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "모집단"
+  },
+  "lab:concept/random-sampling": {
+   "topic": "lab:topic/sampling-design",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "무작위 추출"
+  },
+  "lab:concept/sample-mean": {
+   "topic": "lab:topic/sampling-distribution-mean",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "표본평균"
+  },
+  "lab:concept/sample-size": {
+   "topic": "lab:topic/sample-size",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "표본 크기"
+  },
+  "lab:concept/sample-variance": {
+   "topic": "lab:topic/unbiasedness",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "표본분산"
+  },
+  "lab:concept/sampling-distribution": {
+   "topic": "lab:topic/sampling-distribution-mean",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "표본평균의 분포"
+  },
+  "lab:concept/standard-error": {
+   "topic": "lab:topic/sampling-distribution-mean",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "표준오차"
+  },
+  "lab:concept/statistic": {
+   "topic": "lab:topic/sampling-distribution-mean",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "표본과 통계량"
+  },
+  "lab:concept/t-distribution": {
+   "topic": "lab:topic/t-chi2-f",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "t-분포"
+  },
+  "lab:concept/unbiasedness": {
+   "topic": "lab:topic/unbiasedness",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "치우침 없음 (불편성)"
+  },
+  "lab:method/ci-95": {
+   "topic": "lab:topic/confidence-interval",
+   "score": 2,
+   "why": "주제 이름이 개념 이름에 들어 있음",
+   "ko": "95% 신뢰구간"
+  },
+  "lab:method/ci-99": {
+   "topic": "lab:topic/confidence-interval",
+   "score": 2,
+   "why": "주제 이름이 개념 이름에 들어 있음",
+   "ko": "99% 신뢰구간"
+  },
+  "lab:method/confidence-interval": {
+   "topic": "lab:topic/confidence-interval",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "신뢰구간"
+  },
+  "lab:method/interval-estimation": {
+   "topic": "lab:topic/confidence-interval",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "구간추정"
+  },
+  "lab:method/point-estimation": {
+   "topic": "lab:topic/unbiasedness",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "점추정"
+  }
+ },
+ "retag": {
+  "from": [],
+  "to": [
+   "stats"
+  ]
+ }
+}
